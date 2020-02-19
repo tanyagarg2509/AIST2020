@@ -1,6 +1,2 @@
-Thanks for downloading this theme!
+#Conference website 
 
-Theme Name: Selecao
-Theme URL: https://bootstrapmade.com/selecao-bootstrap-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
