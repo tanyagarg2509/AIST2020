@@ -653,13 +653,12 @@ ul.the-icons {
 /* ================= featured ========================== */
 
 section#featured {
-    background: #000 url(../img/slider/parallax/igdtuw.jfif) 50% 0 no-repeat;
-    /*opacity: .5;*/
+    background: #000 url(../img/bg/bg-1.jpg) ;
     position: relative;
     width: 100%;
     height: auto;
     margin: 0;
-    /*padding: 120px 0 30px;*/
+    padding: 120px 0 30px;
 }
 
 @media (min-width: 1024px) {
