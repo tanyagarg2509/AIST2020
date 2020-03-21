@@ -653,7 +653,7 @@ ul.the-icons {
 /* ================= featured ========================== */
 
 section#featured {
-    background: #000 url(../img/bg/bg-1.jpg) ;
+    background: #000 url(../img/bg/bg-1.jpg);
     position: relative;
     width: 100%;
     height: auto;
@@ -700,9 +700,10 @@ section#featured p {
 
 .section-intro p {
     font-size: 32px;
-    font-family: 'ostrich_sans_roundedmedium';
+    /* font-family: 'ostrich_sans_roundedmedium'; */
     line-height: 42px;
-    color: #3a3a3a;
+    color: black;
+    text-transform: none;
     font-weight: 300;
 }
 
@@ -1244,7 +1245,7 @@ img.pull-left {
 
 .accordion-heading a {
     font-weight: bold;
-    color: #444;
+    color: black;
 }
 
 .accordion-heading a:hover {

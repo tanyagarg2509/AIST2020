@@ -37,7 +37,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <div class="logo">
-                        <a class="brand" href="index.html"><img src="img/logo.png" width="40px" height="20px;" alt=""></a>
+                        <a class="brand" href="index.html"><img src="img/logo.png" width="30px" height="20px;" alt=""></a>
                     </div>
                     <div class="mobileMenuIcon" id="mobileMenuIconId" onclick="openCloseNav(this)">
                         <div class="bar1"></div>
@@ -104,8 +104,18 @@
     <style>
         .homeSubtitle {
             color: white;
-            margin-top: 50px;
+            margin-top: 35px;
             font-size: 30px;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+        
+        .subhomeSubtitle {
+            color: white;
+            margin-top: 10px;
+            font-size: 25px;
             font-weight: normal;
             font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 0.05em;
@@ -146,6 +156,11 @@
         @media only screen and (max-width: 767px) {
             .homeSubtitle {
                 font-size: 20px;
+                margin-top: 15px;
+            }
+            .subhomeSubtitle {
+                font-size: 17px;
+                /* margin-top: 10px; */
             }
             .mobileMenuIcon {
                 margin-right: 10px;
@@ -167,6 +182,7 @@
                                 <h2 class="fade homeTitle">AIST 2020</h2>
                             </div>
                             <p class="homeSubtitle">(2<sup>nd</sup> International Conference On Artificial Intelligence And Speech Technology)</p>
+                            <p class="subhomeSubtitle">@ Indira Gandhi Delhi Technical University for Women, Kashmere Gate, Delhi</p>
                             <p class="homeSubtitle">19<sup>th</sup> - 20<sup>th</sup> November, 2020</p>
                             <br>
                             <div class="homeDownloadbutton">
@@ -201,7 +217,7 @@
                 <div class="span12">
                     <div>
                         <div class="section-intro">
-                            <p style="font-size: 24px;text-align: justify;">
+                            <p style="font-size:20px;text-align: justify;">
                                 Thanks to Artificial Intelligence(AI), Machine Learning(ML), Natural Language Processing(NLP) and Speech Technology, which are enabling the development of Virtual Assistants in user-facing applications and working in the background to automate workflows.
                                 IGDTUW is organizing this two days conference to foster scientific talk exchange among the Industry Practitioners, Researchers, Scientists, Students and Engineers for the Second time. It will involve Paper presentations,
                                 Tutorials and Key Note Speeches by Eminent Personalities on these technologies.
@@ -283,6 +299,7 @@
                 
                 .speaker-container div p {
                     padding: 10px;
+                    font-size: 20px;
                     margin-bottom: 0;
                 }
                 
@@ -297,49 +314,60 @@
                         margin-top: 20px;
                     }
                 }
-                /* .flex-container{
-          display: flex;
-          justify-content: center; 
-        } */
+                
+                .flex-container {
+                    display: flex;
+                    justify-content: center;
+                }
             </style>
             <div class="row">
                 <div class="span3">
                     <div class="speaker-container">
-                        <img src="img/portfolio/img1.jpg ">
+                        <img src="img/portfolio/DrSatoshi.jpg">
                         <div>
-                            <p>Speaker 1</p>
-                            <p>Degree</p>
+                            <p>Dr. Satoshi Nakamura</p>
+                            <p class="degree"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Professor of Nara Institute of Science and Technology (NAIST)</p>
                         </div>
                     </div>
                 </div>
                 <div class="span3">
                     <div class="speaker-container">
-                        <img src="img/portfolio/img2.jpg">
+                        <img src="img/portfolio/ProfNemeth.jpg">
                         <div>
-                            <p>Speaker 2</p>
-                            <p>Degree</p>
+                            <p>Prof. Nemeth Geza</p>
+                            <p class="degree"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Budapest University of Technology and Economics</p>
                         </div>
                     </div>
                 </div>
                 <div class="span3">
                     <div class="speaker-container">
-                        <img src="img/portfolio/img3.jpg">
+                        <img src="img/portfolio/DrBarbara.jpg">
                         <div>
-                            <p>Speaker 3</p>
-                            <p>Degree</p>
+                            <p>Dr. Barbara Zitova</p>
+                            <p class="degree"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Institute of Information Theory and Automation of the ASCR</p>
                         </div>
                     </div>
                 </div>
                 <div class="span3">
                     <div class="speaker-container">
-                        <img src="img/portfolio/img4.jpg ">
+                        <img src="img/portfolio/ProfSS.png">
                         <div>
-                            <p>Speaker 4</p>
-                            <p>Degree</p>
+                            <p>Prof. S.S. Agrawal</p>
+                            <p class="degree"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Emeritus Scientist, CSIR</p>
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="flex-container">
+                <div class="span3">
+                    <div class="speaker-container">
+                        <img src="img/portfolio/DrAmita.png">
+                        <div>
+                            <p>Dr. Amita Dev</p>
+                            <p class="degree"><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Vice Chancellor, IGDTUW</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -782,6 +810,18 @@
                                 <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. S. Nakamura, NIST, Japan </li>
                                 <li><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i> Prof. Nemeth Geza, Budapest University, Hungary </li>
                                 <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ms. Anu Khosla, SAG DRDO </li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Nick Campbell, Trinity College Dublin, IR</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. S. K. Shrivastava, Head-TDIL, DRDO</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. S. K. Jain, Director General,CFSL</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. P.C. Ching, Chinese University of H.K.</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Rajiv Sangal, IIIT-Hyderabad</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Hiroya Fujisaki, Tokyo University, Japan</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Arun Kumar, IIIT-Delhi</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. P. K. Saxena, PSA, PMO</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Anupam Shukla, Director, IIIT-Pune</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Mr Karunesh Arora, CDAC, Noida</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Sunil Tyagi, Directorate of Naval Design(SDG), IHQ MOD(Navy) Delhi</li>
+                                <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. M. N. Hoda, BVICAM</li>
                             </ul>
                         
                     </div>
@@ -794,6 +834,34 @@
                             <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Chai Wutiwiwatchai, NECTEC, Thailand </li>
                             <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Bin Ma, Institute for Infocomm Research, Singapore </li>
                             <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Hsin-Min Wang, IIS, Academia Sinica, Taiwan </li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Ashish Seth, Inha University, Tashkent</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Mirna Adriani, UI, Indonesia</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Deepak Garg, Bennett University, India</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Mani Madhukar, IBM India Pvt. Ltd</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Shakir Khan, Imam University, Saudi Arabia</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. P. K. Dass, IIT Guwahati, India</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Omar Farooq, AMU, India</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr Shweta Bansal, KIIT, Gurgaon, India</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Arun Kumar, Jubail Univ., SA</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Anup Girdhar, Sedulity Solutions,Delhi</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Poonam Bansal, MSIT, Delhi</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Vinod Shukla, Amity University Dubai</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Kirti Tyagi, Inha University, Tashkent</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr Atul Kumar, KIIT, Gurgaon</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr Sanjay Misra, Covenant Univ., Nigeria</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Poonam Bansal, MSIT, Delhi</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Mrs. Swaran Lata, Ex-Director & Head, TDIL Programme, DEITY</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Sunita Arora, CDAC</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Kamini Malhotra, SAG, DRDO</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Shweta Sinha, KIIT, Gurgaon</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. A. K. Mohapatra, CTA, Delhi Police</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. R. K. Singh, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Ashwni Kumar, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Prof. Deepak Garg, Bennett University</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Archana Baliyan, MSIT</li>
+                            
+
+
                         </ul>
                        
                     </div>
@@ -806,6 +874,21 @@
                             <li><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i> Dr. Arun Sharma, IGDTUW </li>
                             <li><i class="fa fa-chevron-circle-right">&nbsp&nbsp</i> Dr. Ela Kumar, IGDTUW </li>
                             <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Nidhi Goel, IGDTUW </li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Manoj Soni, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ar. Preeti Chauhan, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Preeti Vajpeyi, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Shalini Arora, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr Jasdeep Kaur, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ar. Vishal Rai, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ms. Bhawna Narwal, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. N. R. Chauhan, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Viveak Chawla, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Chandra Prakash, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Mohana Ghosh, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Dr. Sourabh Bharti, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ms. Pooja Gambhir, IGDTUW</li>
+                            <li> <i class="fa fa-chevron-circle-right">&nbsp&nbsp</i>Ms. Vasundhra Gupta, IGDTUW</li>
+                            
                         </ul>
                         
                     </div>
